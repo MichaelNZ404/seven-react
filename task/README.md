@@ -1,0 +1,1 @@
+This folder contains the task specification of the assignment and can be removed without issue
