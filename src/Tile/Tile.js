@@ -15,7 +15,7 @@ const LogoImageWrapper = styled.img`
 `;
 
 const TileImageWrapper = styled.img`
-  height: 100%;
+  max-width: 100%;
 `;
 
 const BannerContainer = styled.div`
@@ -25,7 +25,7 @@ const BannerContainer = styled.div`
 `;
 
 const TileContainer = styled.div`
-  height: 350px;
+  max-height: 350px;
   display: inline-block;
 `;
 
