@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Tile from './Tile/Tile.js';
+import {Tile} from './Tile/Tile.js';
 
 class App extends Component {
   render() {

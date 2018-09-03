@@ -29,20 +29,20 @@ const TileContainer = styled.div`
   display: inline-block;
 `;
 
-class Banner extends React.Component {
+export class Banner extends React.Component {
   render() {
     return(
-      <div Style="width:100%">
+      <div>
         <BannerContainer>
           <LogoImageWrapper src={`${LogoImage}`} />
-          <Title>{this.props.showName}</Title>;
+          <Title className='show-name'>{this.props.showName}</Title>;
         </BannerContainer>
       </div>
     );
   }
 }
 
-export default class Tile extends React.Component {
+export class Tile extends React.Component {
     render() {
       return(
         <TileContainer>
